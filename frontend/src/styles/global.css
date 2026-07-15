@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  color: #f4f6fb;
+  background-color: #04070f;
+  line-height: 1.5;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at -20% 20%, rgba(132, 94, 255, 0.45), transparent 45%),
+    radial-gradient(circle at 80% -10%, rgba(0, 212, 255, 0.35), transparent 38%),
+    #05080f;
+  color: #f4f6fb;
+}
+#app {
+  min-height: 100vh;
+}
+button {
+  font: inherit;
+}
